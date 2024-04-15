@@ -1,0 +1,128 @@
+@use "../bases/variables" as var;
+@media screen and (max-width: 992px) {
+    .header{
+        &-content{
+            &__nav{
+                &__ul{
+                    display: none;
+                }
+            }
+            i{
+                display: block;
+                font-size: 30px;
+                color: var.$primary;
+                cursor: pointer;
+                &:hover{
+                    color: var.$tertiary;
+                }
+            }
+        }
+    }
+    .main{
+        .home{
+            &-left{
+                &__title{
+                    font-size: 35px;
+                }
+            }
+        }
+        &-logo{
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+        }
+    }
+}
+@media screen and (max-width: 900px){
+    .tutorial{
+        &-content{
+            gap: 30px;
+            &__right{
+                &__title{
+                    font-size: 30px;
+                }
+                &__flex{
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .features{
+        &-card{
+            flex-direction: column;
+            text-align: center;
+            &__item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .testimonial{
+        &-card{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .action{
+        &-content{
+            flex-direction: column;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .main{
+        .home{
+            text-align: center;
+            flex-direction: column;
+            img{
+                max-width: 400px;
+            }
+        }
+    }
+    .footer{
+        &-content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+}
+@media screen and (max-width: 650px){
+    .header{
+        .btn{
+            display: none;
+        }
+    }
+    .tutorial{
+        &-content{
+            flex-direction: column;
+            text-align: center;
+            &__right{
+                &__flex{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .testimonial{
+        &-title{
+            font-size: 30px;
+        }
+        &-card{
+            grid-template-columns: auto;
+            &__item{
+                text-align: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer{
+        &-content{
+            grid-template-columns: auto !important;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@use "./variables" as var;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 85%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+.btn-solid{
+    background-color: var.$primary;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    &:hover{
+        background-color: var.$tertiary;
+    }
+    &:active{
+        transform: scale(1.2);
+    }
+}

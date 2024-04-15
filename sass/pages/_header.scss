@@ -1,0 +1,28 @@
+@use "../bases/mixins" as mixin;
+@use "../bases/variables" as var;
+
+.header{
+    padding: 20px 0;
+    &-content{
+        @include mixin.d-flex;
+        &__nav{
+            @include mixin.d-flex;
+            gap: 25px;
+            &__ul{
+                @include mixin.d-flex;
+                gap: 25px;
+                &__li{
+                    font-weight: 500;
+                    cursor: pointer;
+                    transition: all .6s ease-in-out;
+                    &:hover{
+                        color: var.$primary;
+                    }
+                }
+            }
+            i{
+                display: none;
+            }
+        }
+    }
+}

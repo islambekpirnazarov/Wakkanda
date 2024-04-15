@@ -1,0 +1,66 @@
+@use "../bases/mixins" as mixin;
+@use "../bases/variables" as var;
+.footer{
+    padding: 50px 0;
+    background-color: rgb(29, 36, 43);
+    color: rgb(217, 219, 225);
+    &-content{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        &__item{
+            &__logo{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 700;
+                &__img{
+                    img{
+                        width: 30px;
+                    }
+                }
+            }
+            &__icons{
+                margin: 25px 0;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                i{
+                    background-color: rgba($color: #fff, $alpha: 0.1);
+                    color: #fff;
+                    padding: 8px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: all .6s ease-in-out;
+                    &:hover{
+                        background-color: var.$primary;
+                    }
+                }
+            }
+            &__title{
+                color: #fff;
+                font-weight: 600;
+                font-size: 17px;
+                margin-bottom: 10px;
+            }
+            &__ul{
+                &__li{
+                    margin: 10px 0;
+                }
+            }
+            .btn-gray{
+                background-color: rgba($color: #fff, $alpha: 0.2);
+                color: #fff;
+                input{
+                    width: 120px;
+                    outline: none;
+                    border: none;
+                    background-color: transparent;
+                }
+                i{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@use "../bases/mixins" as mixin;
+
+.main{
+    padding: 20px 0;
+    .home{
+        @include mixin.d-flex;
+        gap: 20px;
+        &-left{
+            flex: 1;
+            &__title{
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 125%;
+                text-shadow: 0px 1px 4px rgb(0 0 0 / 50%);
+            }
+            &__info{
+                margin: 20px 0;
+            }
+        }
+        &-right{
+            flex: 1;
+            img{
+                max-height: 500px;
+                min-height: 400px;
+                object-fit: contain;
+            }
+        }
+    }
+    &-logo{
+        @include mixin.d-flex;
+        padding: 40px 0;
+        img{
+            max-width: 140px;
+            max-height: 45px;
+            object-fit: contain;
+        }
+    }
+}

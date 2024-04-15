@@ -1,0 +1,42 @@
+@use "../bases/mixins" as mixin;
+@use "../bases/variables" as var;
+
+.action{
+    padding: 50px 0;
+    &-content{
+        background: rgb(0, 119, 192);
+        padding: 50px;
+        color: #fff;
+        @include mixin.d-flex;
+        gap: 30px;
+        &__left{
+            flex: 1;
+            img{
+                object-fit: contain;
+                min-height: 300px;
+                max-height: 400px;
+            }
+        }
+        &__right{
+            flex: 1;
+            &__question{
+                font-weight: 600;
+                letter-spacing: 1.5px;
+            }
+            &__title{
+                font-size: 40px;
+                margin: 20px 0;
+            }
+            .btn-white{
+                cursor: pointer;
+                font-weight: 600;
+                color: var.$primary;
+                transition: all .6s ease-in-out;
+                &:hover{
+                    color: #fff;
+                    background-color: var.$tertiary;
+                }
+            }
+        }
+    }
+}

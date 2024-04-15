@@ -1,0 +1,15 @@
+<svg width="42.000000" height="41.000000" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip26_156">
+			<rect id="headphones" width="42.398438" height="40.500000" transform="translate(-0.434570 -0.250000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="headphones" width="42.398438" height="40.500000" transform="translate(-0.434570 -0.250000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip26_156)">
+		<path id="Vector" d="M4.86 30.12L4.86 20C4.86 15.97 6.54 12.1 9.52 9.26C12.5 6.41 16.54 4.81 20.76 4.81C24.98 4.81 29.02 6.41 32 9.26C34.98 12.1 36.66 15.97 36.66 20L36.66 30.12" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M35.62 34.19C34.96 34.83 34.06 35.18 33.13 35.18L31.36 35.18C30.42 35.18 29.52 34.83 28.86 34.19C28.2 33.56 27.83 32.7 27.83 31.81L27.83 26.75C27.83 25.85 28.2 24.99 28.86 24.36C29.52 23.73 30.42 23.37 31.36 23.37L36.66 23.37L36.66 31.81C36.66 32.7 36.29 33.56 35.62 34.19ZM5.9 34.19C6.56 34.83 7.46 35.18 8.39 35.18L10.16 35.18C11.1 35.18 12 34.83 12.66 34.19C13.32 33.56 13.69 32.7 13.69 31.81L13.69 26.75C13.69 25.85 13.32 24.99 12.66 24.36C12 23.73 11.1 23.37 10.16 23.37L4.86 23.37L4.86 31.81C4.86 32.7 5.23 33.56 5.9 34.19Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	</g>
+</svg>

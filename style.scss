@@ -1,0 +1,22 @@
+@import "./sass/bases/global";
+@import "./sass/pages/header";
+@import "./sass/pages/main";
+@import "./sass/pages/features";
+@import "./sass/pages/tutorial";
+
+@import "./sass/pages/testimonial";
+@import "./sass/pages/action";
+@import "./sass/pages/media";
+@import "./sass/pages/footer";
+
+.main{
+    .home{
+        &-right{
+            img{
+                background-image: url(./img/home-bg.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
